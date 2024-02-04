@@ -1,1 +1,13 @@
-GA1 ReadMe file
+#Ref: 
+#https://realpython.com/python-sockets/
+#chatGPT (debugging)
+
+
+INTRUCTIONS FOR CLIENT/SERVER.
+1. Have a client and server pair on each machine.
+2. Run the server.py's first. Enter the port you would like the server to be listening on (Computer A's server.py will have a different port than Computer B's server.py).
+3. The cmd/terminal should display that the code is listening on that port.
+4. Run Client.py
+5. Enter the IP address of the other computer on each clients (Computer A's client.py will need Computer B's IP address and vice versa). The IP can be found by running ipconfig and looking at the ipv4 addresss.
+6. Enter the port of the server.py of the other computer (Computer A's client.py will need the port of Computer B's server and vice versa). The servers will have what port you selected to be listening on displayed.
+7. You will now be able to send messages to each other. The messages will display in the server.py's.
